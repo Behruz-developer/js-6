@@ -2,6 +2,7 @@ let name = prompt("ismingizni kriting");
 let year11 = +prompt("hozirgi yilni kriting");
 let year22 = +prompt("tug'ilgan yilinigizni kriting");
 
+
 while (isNaN(year11) || year11 == 0) {
     year22 = +prompt("hozirgi yilni kritishingiz kerak");
 }
